@@ -59,7 +59,10 @@ git push -u origin master
 
 第一次提交会提示输入github账号密码，提交成功如下：
 
+
 ![](tu12.png)
 
 刷新github项目，可以看到提交内容
 
+
+![](tu13.png)
