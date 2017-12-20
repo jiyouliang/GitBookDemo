@@ -36,3 +36,30 @@
 
 
 ![](tu10.png)
+
+
+通过git status可以查看状态，如下表示提交成功。
+
+![](tu11.png)
+
+
+### （4）提交到github
+
+将本地仓库提交到github，github相当于git的服务器，作为远程仓库。
+
+以后到公司中开发，就相当于提交到公司git服务器。
+
+本地仓库关联远程仓库，该仓库是1.2节中创建的：
+
+git remote add origin https://github.com/jiyouliang/GitBookDemo.git
+
+提交到远程仓库（这里为github）：
+
+git push -u origin master
+
+第一次提交会提示输入github账号密码，提交成功如下：
+
+![](tu12.png)
+
+刷新github项目，可以看到提交内容
+
